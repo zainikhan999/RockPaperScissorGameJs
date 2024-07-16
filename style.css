@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url('images/bg.jpg');
+    background-color: rgba(233, 10, 185, 0.288);
+    background-blend-mode:lighten;
+    background-size: 1800px 965px;
+    background-position:top;
+    background-repeat:no-repeat;
+
+    
+    
+}
+
+
+.title
+{
+    background-color:transparent;
+    width: 100%;
+    padding: 23px 40px;
+    color: rgb(0, 0, 0);
+    font-size: 1.5vmax;
+    text-align: center;
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items:center;
+    padding:50px 0px 0px 0px;
+    /* border: 2px solid green; */
+    height: 100vh;
+}
+
+
+.buttonsholder
+{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* border: 3px solid green;  */
+    height: 70vh;
+    width: 900px;
+    padding: 100px 0px 0px 0px;
+    margin: 20px;
+    
+    
+}
+
+.rockcomponents , .papercomponents,.scissorcomponents
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* border: 4px solid green; */
+    width: 34vh;
+    height: 34vh;
+    /* background-color: rgb(255, 63, 84); */   
+    
+    border-radius: 50%;
+  
+}
+.rockcomponents h1 , .papercomponents h1 , .scissorcomponents h1{
+    background-color:rgb(138, 116, 214);
+    padding: 8px;
+    border-radius: 20px ;
+    width: 12vmax;
+    text-align: center;
+}
+
+.rock ,.paper ,.scissor
+{
+    /* border: solid 2px rgb(0, 0, 0); */
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction: column;
+    width: 29vh;
+    height: 29vh;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(48, 50, 161, 0.308);
+    background-blend-mode:hard-light;
+    overflow: hidden;
+    padding: 15px;
+
+}
+
+.rock
+{
+  
+    background-image: url("images/vecteezy_gray-cobblestone-element-of-nature-and-mountains-items-for_16148710.jpg");
+   
+}
+
+.paper
+{
+    background-image: url("images/vecteezy_crumpled-paper-ball-vector-illustration-isolated-on_24444498.jpg");
+}
+.scissor
+{
+    background-image: url("images/Purple\ scissors\ for\ school\,\ office\ or\ workshop\ 3D\ icon.jpg");
+    
+}
+.rock:hover, .paper:hover, .scissor:hover
+{
+    background-color: rgba(48, 50, 161, 0.11);
+    background-blend-mode:lighten;
+    box-shadow: 0 0 20px 5px #ce26f8;
+}
+
+.rock h1 , .paper h1, .scissor h1{
+
+    font-size: 5vh;
+    color: rgb(19, 19, 19);
+    font-weight: bold;
+   
+}
+
+
+.card
+{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+    justify-content:space-between;
+    align-items:center;
+    gap: 10px;
+    width: 900px;
+    height:8vh;
+    /* border:5px dotted white ; */
+    padding: 30px;
+}
+
+.userscorecard, .computerscorecard
+{
+   /* border: solid red 4px; */
+   /* width: 900px; */
+   /* overflow: hidden; */
+}
+.userscorecard h1,.computerscorecard h1
+{
+    background-color:rgb(255, 152, 67);
+    padding: 7px;
+    display: inline-block;
+    border-radius: 20px ;
+
+}
+.result
+{
+      padding: 25px;
+      /* border: solid red 3px; */
+      width: 900px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.result h1
+{
+    /* #8A74D6 */
+    /* rgb(98, 74, 158) */
+    background-color:  rgb(100, 172, 62);
+    margin: 4px;
+    width: auto;
+    text-align: center;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+
