@@ -193,7 +193,7 @@ body{
       align-items: center;
       gap: 20px;
 }
-.result h1 , .reset h1
+.result h1 , .reset h1 ,.winner h1
 {
     /* #8A74D6 */
     /* rgb(98, 74, 158) */
