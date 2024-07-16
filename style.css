@@ -12,9 +12,6 @@ body{
     background-size: 1800px 965px;
     background-position:top;
     background-repeat:no-repeat;
-
-    
-    
 }
 
 
@@ -58,7 +55,7 @@ body{
     
 }
 
-.rockcomponents , .papercomponents,.scissorcomponents
+.components , .components,.components
 {
     display: flex;
     flex-direction: column;
@@ -68,12 +65,12 @@ body{
     /* border: 4px solid green; */
     width: 34vh;
     height: 34vh;
-    /* background-color: rgb(255, 63, 84); */   
+    background-color: rgb(137, 74, 166);   
     
     border-radius: 50%;
   
 }
-.rockcomponents h1 , .papercomponents h1 , .scissorcomponents h1{
+.components h1 , .components h1 , .components h1{
     background-color:rgb(138, 116, 214);
     padding: 8px;
     border-radius: 20px ;
@@ -126,7 +123,7 @@ body{
 
 .rock h1 , .paper h1, .scissor h1{
 
-    font-size: 5vh;
+    font-size: 5wh;
     color: rgb(19, 19, 19);
     font-weight: bold;
    
@@ -137,27 +134,51 @@ body{
 {
     display: flex;
     flex-direction: row;
-    /* justify-content: flex-end; */
     justify-content:space-between;
     align-items:center;
     gap: 10px;
     width: 900px;
     height:8vh;
-    /* border:5px dotted white ; */
-    padding: 30px;
+  
 }
 
 .userscorecard, .computerscorecard
 {
-   /* border: solid red 4px; */
-   /* width: 900px; */
-   /* overflow: hidden; */
+   /* border: solid rgb(25, 0, 255) 4px; */
+   width: 500px;
+  
 }
-.userscorecard h1,.computerscorecard h1
+
+.scorebuttonUser,.scorebuttonComp
+{
+    /* border:solid rgb(255, 0, 55) 3px; */
+    width: 500px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+
+ 
+}
+.scorebuttonUser h1,.scorebuttonComp h1
 {
     background-color:rgb(255, 152, 67);
     padding: 7px;
     display: inline-block;
+    border-radius: 20px ;
+    width: auto;
+    cursor: pointer;
+
+}
+
+.scorebuttonUser h3,.scorebuttonComp h3
+{
+    background-color:rgb(201, 35, 96);
+    color:white;
+    padding: 7px;
+    display: inline-block;
+    width: auto;
     border-radius: 20px ;
 
 }
@@ -167,10 +188,12 @@ body{
       /* border: solid red 3px; */
       width: 900px;
       display: flex;
-      justify-content: center;
+      flex-direction: row;
+      justify-content:center;
       align-items: center;
+      gap: 20px;
 }
-.result h1
+.result h1 , .reset h1
 {
     /* #8A74D6 */
     /* rgb(98, 74, 158) */
@@ -180,6 +203,8 @@ body{
     text-align: center;
     border-radius: 20px;
     padding: 8px;
+    cursor: pointer;
 }
+
 
 
